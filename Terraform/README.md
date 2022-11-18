@@ -4,3 +4,7 @@
 * 3- NAT and Router
 * 4- Private GKE [ Google kubernetes Cluster ] 
 * 5- Private Compute Engine [ VM ]
+
+## Setup :
+* 1- Initialize terraform code 
+![home_Page Image](../images/init.jpg)
