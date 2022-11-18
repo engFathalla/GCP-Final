@@ -7,4 +7,5 @@
 
 ## Setup :
 * 1- Initialize terraform code 
+
 ![home_Page Image](../images/init.jpg)
