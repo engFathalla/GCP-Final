@@ -27,9 +27,9 @@ where key.json is the key for service accout that have permission to access priv
 
 ![home_Page Image](../images/role.jpg)
 
-and use :
-imagePullSecrets:
-  - name: countly-registry
+and use:
+* imagePullSecrets:
+*  - name: countly-registry
 in Spec Section 
 
 ![home_Page Image](../images/secret.jpg)
