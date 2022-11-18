@@ -15,3 +15,12 @@
 * 3- SSh into VM and install [ gcloud , kubectl , activate Service account ] using  [ Script.sh ]
 
 ![home_Page Image](../images/script.jpg)
+* 4- Connect to kubernetes cluster 
+
+![home_Page Image](../images/connect.jpg)
+
+* 5- if you will pull your image from private container registry , user this secret resource on kubernates 
+
+kubectl create secret docker-registry countly-registry --docker-server=http://gcr.io --docker-username=_json_key --docker-password="$(cat key.json)"
+
+where key.json is the key for service accout that have permission to access private container registry
