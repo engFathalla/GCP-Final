@@ -24,3 +24,6 @@
 kubectl create secret docker-registry countly-registry --docker-server=http://gcr.io --docker-username=_json_key --docker-password="$(cat key.json)"
 
 where key.json is the key for service accout that have permission to access private container registry
+
+![home_Page Image](../images/role.jpg)
+
