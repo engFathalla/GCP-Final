@@ -9,3 +9,9 @@
 * 1- Initialize terraform code 
 
 ![home_Page Image](../images/init.jpg)
+* 2- Apply terraform code 
+
+![home_Page Image](../images/apply.jpg)
+* 3- SSh into VM and install [ gcloud , kubectl , activate Service account ] using  [ Script.sh ]
+
+![home_Page Image](../images/script.jpg)
